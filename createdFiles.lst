@@ -1,0 +1,15 @@
+com\example\shopai\managers\PendingPurchaseManager.class
+com\example\shopai\listeners\ChatListener.class
+com\example\shopai\listeners\PlayerListener.class
+com\example\shopai\managers\PendingPurchaseManager$PendingPurchase.class
+com\example\shopai\managers\PriceManager.class
+com\example\shopai\ShopAIPlugin.class
+com\example\shopai\managers\ShopManager.class
+com\example\shopai\models\ShopItem.class
+com\example\shopai\models\BehaviorRecord.class
+com\example\shopai\commands\ShopCommand.class
+com\example\shopai\gui\ShopGUI.class
+com\example\shopai\ai\AIService.class
+com\example\shopai\managers\BehaviorManager.class
+com\example\shopai\managers\EconomyManager.class
+com\example\shopai\models\ShopCategory.class

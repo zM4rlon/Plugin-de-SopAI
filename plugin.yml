@@ -1,0 +1,22 @@
+name: ShopAI
+version: 1.0.0
+main: com.example.shopai.ShopAIPlugin
+api-version: 1.20
+description: Um plugin de loja com preços dinâmicos baseados em IA
+author: YourName
+depend: [Vault]
+
+commands:
+  loja:
+    description: Abre a loja
+    usage: /loja
+    aliases: [shop]
+    permission: shopai.use
+
+permissions:
+  shopai.use:
+    description: Permite usar a loja
+    default: true
+  shopai.admin:
+    description: Permite administrar a loja
+    default: op

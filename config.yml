@@ -1,0 +1,31 @@
+# ShopAI Plugin - Configuração
+
+# Configuração da Loja
+shop:
+  # As categorias serão automaticamente populadas aqui quando o plugin for executado
+  categories: {}
+
+# Configuração da IA
+use-ai-pricing: true
+openai-api-key: "" # Adicione sua chave de API do OpenAI aqui
+
+# Intervalo de atualização de preços em ticks (20 ticks = 1 segundo)
+# Padrão: 72000 ticks = 1 hora
+price-update-interval: 72000
+
+# Modo de depuração
+debug: false
+
+# Mensagens
+messages:
+  no-permission: "§cVocê não tem permissão para usar este comando."
+  players-only: "§cApenas jogadores podem usar este comando."
+  not-enough-money: "§cVocê não tem {price} para comprar este item!"
+  no-items-to-sell: "§cVocê não tem nenhum {item} para vender!"
+  item-sold: "§aVocê vendeu §f{item} §apor §f{price}"
+  all-items-sold: "§aVocê vendeu todos os seus §f{item} §apara a loja por §f{price}"
+  item-bought: "§aVocê comprou §f{quantity}x {item} §apor §f{price}"
+  enter-quantity: "§eDigite no chat a quantidade de §f{item} §eque deseja comprar:"
+  price-per-unit: "§7(Cada unidade custa §f{price}§7)"
+  invalid-number: "§cPor favor, digite um número válido!"
+  quantity-greater-than-zero: "§cA quantidade deve ser maior que zero!"
